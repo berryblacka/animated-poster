@@ -7,6 +7,7 @@ body {
 
 .spacer {
   height: 100vh;
+  position: relative;
 }
 
 .animated-container {
@@ -52,7 +53,7 @@ body {
 }
 
 .text-right {
-  font-size: clamp(0.8rem, 3vw, 1.125rem);
+  font-size: clamp(0.3rem, 1.2vw, 1.125rem);
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -61,16 +62,16 @@ body {
 
 #text-right-container {
   position: relative;
-  top: 32.7vw;
+  bottom: -33vw;
   left: -60vw;
 }
 
 .text-left {
-  font-size: clamp(3.5rem, 4vw, 4.375rem);
+  font-size: clamp(2.5rem, 4vw, 4.375rem);
 }
 
 #text-left-container {
   position: absolute;
-  top: 27.5vw;
+  bottom: -33vw;
   left: -60vw;
 }
