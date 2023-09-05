@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans&family=Jost:wght@100&display=swap");
+
+body {
+  font-family: "Inria Sans", sans-serif;
+  overflow: hidden;
+}
+
+.spacer {
+  height: 100vh;
+}
+
+.animated-container {
+  position: fixed;
+}
+.wrapper {
+  position: relative;
+}
+
+.animated-element {
+  background-image: url("../images/star.svg");
+  background-size: contain;
+  width: 13.49vw;
+  height: 13.49vw;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+:root {
+  --star-top: 6vw;
+  --text-top: 25vw;
+}
+#star-1-container {
+  position: absolute;
+  top: var(--star-top);
+  left: 12.92vw;
+}
+#star-2-container {
+  position: absolute;
+  top: var(--star-top);
+
+  left: -14.5vw !important;
+}
+#star-3-container {
+  position: absolute;
+  top: var(--star-top);
+  left: -14.5vw;
+}
+#star-4-container {
+  position: absolute;
+  top: var(--star-top);
+  left: -14.5vw;
+}
+
+.text-right {
+  font-size: clamp(0.8rem, 3vw, 1.125rem);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 100%;
+}
+
+#text-right-container {
+  position: relative;
+  top: 32.7vw;
+  left: -60vw;
+}
+
+.text-left {
+  font-size: clamp(3.5rem, 4vw, 4.375rem);
+}
+
+#text-left-container {
+  position: absolute;
+  top: 27.5vw;
+  left: -60vw;
+}
