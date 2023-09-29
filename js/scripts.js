@@ -204,8 +204,8 @@ if (window.anime) {
   function startAnimation() {
     anime({
       targets: targets,
-      rotateZ: "+=360",
-      duration: 1000,
+      rotateZ: "+=1440",
+      duration: 6000,
       // delay: 500,
       easing: "easeInQuad",
       begin: function (anim) {},
@@ -214,7 +214,7 @@ if (window.anime) {
         anime({
           targets: targets,
           rotateZ: "+=360",
-          duration: 500,
+          duration: 900,
           loop: true,
           easing: "linear",
         });
